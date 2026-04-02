@@ -1,48 +1,148 @@
-# Zorvyn Finance Dashboard
+<div align="center">
+  <img width="1200" height="475" alt="Zorvyn Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern, responsive, and feature-rich finance dashboard built with React, TypeScript, and Tailwind CSS. It features real-time insights, goal tracking, transaction management, and an AI-powered financial assistant.
+<h1 align="center">💰 Zorvyn Finance Dashboard</h1>
 
-## Features
+<p align="center">
+A modern, AI-powered personal finance dashboard built with React, TypeScript, and Tailwind CSS.
+</p>
 
-- **Responsive Design:** Works seamlessly on mobile, tablet, and desktop.
-- **Dark Mode:** Full support for dark and light themes.
-- **AI Assistant:** Get personalized financial insights powered by AI.
-- **Goal Tracking:** Set and monitor your financial goals with progress bars.
-- **Transaction Management:** Add, edit, and delete transactions with ease.
-- **Interactive Charts:** Visualize your balance trends and spending breakdown.
+<p align="center">
+  <a href="https://zorvyn-finance-dashboard.onrender.com">🌐 Live Demo</a> •
+  <a href="#features">✨ Features</a> •
+  <a href="#tech-stack">⚙️ Tech Stack</a> •
+  <a href="#installation">🚀 Installation</a>
+</p>
 
-## Run Locally
+---
 
-**Prerequisites:** Node.js (v18 or higher)
+## 🚀 Live Demo
+👉 https://zorvyn-finance-dashboard.onrender.com
 
-1. **Clone the repository:**
+---
+
+## ✨ Features
+
+- 📱 **Responsive UI** – Works on mobile, tablet, desktop  
+- 🌙 **Dark Mode** – System-aware theme switching  
+- 🤖 **AI Assistant** – Smart financial insights using Gemini AI  
+- 🎯 **Goal Tracking** – Track savings with progress bars  
+- 💸 **Transaction Management** – Full CRUD operations  
+- 📊 **Interactive Charts** – Spending & balance analytics  
+- 🔐 **Role-Based Access** – Admin & Viewer modes  
+- 💾 **Persistent Storage** – Data saved via LocalStorage  
+
+---
+
+## 🧠 AI Features
+
+- Personalized financial advice  
+- Spending pattern analysis  
+- Context-aware chatbot responses  
+- Budget suggestions based on real data  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category        | Tech Used |
+|----------------|----------|
+| Frontend       | React 19 |
+| Language       | TypeScript |
+| Styling        | Tailwind CSS |
+| Charts         | Recharts |
+| Animations     | Framer Motion |
+| Icons          | Lucide React |
+| AI Integration | Gemini API |
+| State Mgmt     | React Context API |
+| Storage        | LocalStorage |
+| Build Tool     | Vite |
+| Deployment     | Render |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── context/
+ ├── data/
+ ├── types.ts
+ └── App.tsx
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Sindhusgowda12/zorvyn-finance-dashboard.git
+cd zorvyn-finance-dashboard
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+Create `.env.local`:
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+### 4. Run the app
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Render**.
+
+Steps:
+1. Connect GitHub repo  
+2. Set build command:
    ```bash
-   git clone <your-repo-url>
-   cd zorvyn-finance-dashboard
+   npm run build
+   ```
+3. Publish directory:
+   ```
+   dist
+   ```
+4. Add environment variable:
+   ```
+   GEMINI_API_KEY
    ```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+---
 
-3. **Set up environment variables:**
-   Create a `.env.local` file in the root directory and add your API key:
-   ```env
-   GEMINI_API_KEY="YOUR_API_KEY_HERE"
-   ```
+## 📊 Key Highlights
 
-4. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-   The app will be available at `http://localhost:3000`.
+- ⚡ Built using modern React (hooks + functional components)
+- 🎯 Clean and scalable architecture
+- 📈 Real-time financial insights
+- 🤖 AI-powered decision making
+- 🌐 Fully deployed & production-ready
 
-## Deployment
+---
 
-To deploy the app, you can use platforms like **Render**, **Vercel**, or **Netlify**.
+## 🙌 Author
 
-1. Connect your GitHub repository to the platform.
-2. Set the build command to `npm run build`.
-3. Set the publish directory to `dist`.
-4. Add your `GEMINI_API_KEY` to the platform's environment variables.
+**Sindhu S**
+
+- GitHub: https://github.com/Sindhusgowda12
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
