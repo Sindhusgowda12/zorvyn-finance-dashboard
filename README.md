@@ -1,7 +1,3 @@
-<div align="center">
-  <img width="1200" height="475" alt="Zorvyn Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 <h1 align="center">💰 Zorvyn Finance Dashboard</h1>
 
 <p align="center">
@@ -59,19 +55,6 @@ A modern, AI-powered personal finance dashboard built with React, TypeScript, an
 | Storage        | LocalStorage |
 | Build Tool     | Vite |
 | Deployment     | Render |
-
----
-
-## 📁 Project Structure
-
-```
-src/
- ├── components/
- ├── context/
- ├── data/
- ├── types.ts
- └── App.tsx
-```
 
 ---
 
@@ -138,11 +121,5 @@ Steps:
 **Sindhu S**
 
 - GitHub: https://github.com/Sindhusgowda12
-
----
-
-## ⭐ Show Your Support
-
-If you like this project, give it a ⭐ on GitHub!
 
 ---
