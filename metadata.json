@@ -1,0 +1,5 @@
+{
+  "name": "Zorvyn Finance Dashboard",
+  "description": "A modern, interactive finance dashboard built for Zorvyn's Frontend Developer Intern assignment. Features include real-time insights, transaction management with RBAC simulation, dark mode, and data persistence.",
+  "requestFramePermissions": []
+}
