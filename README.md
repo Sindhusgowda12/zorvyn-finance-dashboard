@@ -50,4 +50,3 @@ To deploy the app, you can use platforms like **Render**, **Vercel**, or **Netli
 2. Set the build command to `npm run build`.
 3. Set the publish directory to `dist`.
 4. Add your `GEMINI_API_KEY` to the platform's environment variables.
-
